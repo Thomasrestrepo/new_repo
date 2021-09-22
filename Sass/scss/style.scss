@@ -1,0 +1,283 @@
+
+.header{
+    width: 100vw;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: black;
+}
+.nav{
+    width: 100vw;
+    background-color: orange;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+
+}
+main{
+    border-color: black;
+    border-style: solid;;
+    text-align: center;
+    width: 100vw;
+}
+.footer{
+    width: 100vw;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+#ulMenu{
+    list-style: none;
+    display: inline-block;
+}
+ul ul{
+    background-color: brown;
+    list-style: none;
+    display: none;
+}
+#liPro:hover{
+    color: rgb(7, 7, 7);
+}
+#liSer:hover{
+    color: rgb(14, 13, 13);
+}
+ul li:hover ul{
+    display: block;
+}
+
+table{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+}
+.carac1{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana;
+    letter-spacing: 0%;
+    font-size: medium;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0%;
+    line-height: 0%;
+    text-decoration: underline;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.carac2{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana;
+    letter-spacing: 0%;
+    font-size: medium;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0%;
+    line-height: 0%;
+    text-decoration: underline;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.carac3{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana;
+    letter-spacing: 0%;
+    font-size: medium;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0%;
+    line-height: 0%;
+    text-decoration: underline;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+/* FLEXBOX */
+.containerone{
+    background-color: bisque;
+    width: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+}
+.flex-items{
+    background-color: rgb(22, 139, 31);
+    height: 100px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.impar{
+    background-color: chartreuse;
+}
+/* ALINEACIÓN ALIGN Y JUSTIFY */
+#divMainone{
+    display: flex;
+    background-color: rgb(252, 164, 0);
+    width: auto;
+    background-position: right;
+    background-repeat: round;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1%;  
+}
+
+/* GRIDS */
+.Grid{
+    background-color: burlywood;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "nav header header"
+    "nav home aside"
+    "nav about aside"
+    "footer footer footer"
+;
+}
+.item{
+    background-color: rgb(238, 255, 0);
+    align-items: stretch;
+    justify-items: stretch;
+    padding: 5px;
+    border: solid black;
+}
+#header{
+    grid-area: header;
+}
+#nav{
+    grid-area: nav;
+}
+#home{
+    grid-area: home;
+}
+#about{
+    grid-area: about;
+}
+aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
+}
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px){
+    .item{
+        background-color: brown;
+    }
+    header{
+        background-color: orange;
+    }
+    nav{
+        background: linear-gradient(to left, rgb(255, 0, 191)white);
+    }
+    main{
+        background: linear-gradient(to left, red, yellow);
+
+    }
+}
+@media only screen and (min-width: 480px){
+    .item{
+        background-color: aquamarine;
+    }
+    header{
+        background-color: orange;
+    }
+    nav{
+        background: linear-gradient(to left, rgb(255, 0, 191), white);
+    }
+    main{
+        background: linear-gradient(to left, red, yellow);
+
+    }
+}
+@media only screen and (min-width: 600px){
+    .item{
+        background-color: rgb(255, 127, 223);
+    }
+    header{
+        background-color: orange;
+    }
+    nav{
+        background: linear-gradient(to left, white, rgb(255, 0, 191));
+    }
+    main{
+        background: linear-gradient(to left, red, yellow);
+
+    }
+}
+@media only screen and (min-width: 768px){
+    .item{
+        background-color: rgb(150, 127, 255);
+    }
+    header{
+        background-color: orange;
+    }
+    nav{
+        background: linear-gradient(to left, rgb(255, 0, 191)te, white);
+    }
+    main{
+        background: linear-gradient(to left, red, yellow);
+    }
+}
+@media only screen and (min-width: 1024px){
+    .item{
+        background-color: rgb(72, 255, 0);
+    }
+    header{
+        background-color: orange;
+    }
+    nav{
+        background: linear-gradient(to left, white, rgb(255, 0, 191));
+    }
+    main{
+        background: linear-gradient(to left, red, yellow);
+    }
+}
+@media only screen and (min-width: 1200x){
+    .item{
+        background-color: rgb(255, 127, 155);
+    }
+    header{
+        background-color: orange;
+    }
+    nav{
+        background: linear-gradient(to left, rgb(255, 0, 191), white);
+    }
+    main{
+        background: linear-gradient(to left, red, yellow);
+    }
+}
+
+
+/* Animaciones arriba en media queries */
+
+/* Transform */
+.transformone{
+    transform:rotate(45deg);
+    background: linear-gradient(to right, purple,yellow);
+    width: 100px;
+    height: 100px;
+}
+.transformtwo{
+    transform: scale(1,1);
+    background: linear-gradient(to right, blue, red);
+}
+.transformthree{
+    background: linear-gradient(to right, green, white);
+    transform: skew(20deg, 0deg);
+}
