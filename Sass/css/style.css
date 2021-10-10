@@ -28,7 +28,9 @@ main {
   width: 100vw;
   background-color: orange;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-size: large;
+  font-weight: bold; }
 
 #ulMenu {
   list-style: none;
