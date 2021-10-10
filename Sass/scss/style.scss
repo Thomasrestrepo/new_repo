@@ -2,6 +2,7 @@
 .header{
     width: 100vw;
     height: 50px;
+    color: black;
     background-color: orange;
     text-align: center;
     text-transform: uppercase;
@@ -20,16 +21,21 @@
     justify-content: center;
 
 }
+body{
+    color: black;
+}
 main{
+    color: black;
     border-color: black;
-    border-style: solid;;
+    border-style: solid;
     text-align: center;
     width: 100vw;
 }
 .footer{
     width: 100vw;
-    background-color: orange;
+    color: black;
     display: flex;
+    background-color: orange;
     justify-content: center;
     font-size: large;
     font-weight: bold;
@@ -52,7 +58,6 @@ ul ul{
 ul li:hover ul{
     display: block;
 }
-
 table{
     color: rgb(0, 0, 0);
     text-align: center;
@@ -114,31 +119,19 @@ table{
     align-items: normal;
 }
 .flex-items{
-    background-color: rgb(22, 139, 31);
+    // background-color: rgb(22, 139, 31);
     height: 100px;
     text-align: center;
     color: black;
     font-size: 20px;
 }
 .impar{
-    background-color: chartreuse;
-}
-/* ALINEACIÓN ALIGN Y JUSTIFY */
-#divMainone{
-    display: flex;
-    background-color: rgb(252, 164, 0);
-    width: auto;
-    background-position: right;
-    background-repeat: round;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    padding: 1%;  
+    background-color: rgb(255, 0, 85);
 }
 
 /* GRIDS */
 .Grid{
-    background-color: burlywood;
+    // background-color: burlywood;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -153,7 +146,7 @@ table{
 ;
 }
 .item{
-    background-color: rgb(238, 255, 0);
+    // background-color: rgb(238, 255, 0);
     align-items: stretch;
     justify-items: stretch;
     padding: 5px;
@@ -180,7 +173,7 @@ aside{
 /* MEDIA QUERIES */
 @media only screen and (min-width: 320px){
     .item{
-        background-color: brown;
+        // background-color: orange;
     }
     header{
         background-color: orange;
@@ -195,7 +188,7 @@ aside{
 }
 @media only screen and (min-width: 480px){
     .item{
-        background-color: aquamarine;
+        // background-color: orange;
     }
     header{
         background-color: orange;
@@ -210,7 +203,7 @@ aside{
 }
 @media only screen and (min-width: 600px){
     .item{
-        background-color: rgb(255, 127, 223);
+        // background-color: orange;
     }
     header{
         background-color: orange;
@@ -225,7 +218,7 @@ aside{
 }
 @media only screen and (min-width: 768px){
     .item{
-        background-color: rgb(150, 127, 255);
+        // background-color: orange;
     }
     header{
         background-color: orange;
@@ -239,7 +232,7 @@ aside{
 }
 @media only screen and (min-width: 1024px){
     .item{
-        background-color: rgb(72, 255, 0);
+        // background-color: orange;
     }
     header{
         background-color: orange;
@@ -253,7 +246,7 @@ aside{
 }
 @media only screen and (min-width: 1200x){
     .item{
-        background-color: rgb(255, 127, 155);
+        // background-color: orange;
     }
     header{
         background-color: orange;
@@ -264,23 +257,4 @@ aside{
     main{
         background: linear-gradient(to left, red, yellow);
     }
-}
-
-
-/* Animaciones arriba en media queries */
-
-/* Transform */
-.transformone{
-    transform:rotate(45deg);
-    background: linear-gradient(to right, purple,yellow);
-    width: 100px;
-    height: 100px;
-}
-.transformtwo{
-    transform: scale(1,1);
-    background: linear-gradient(to right, blue, red);
-}
-.transformthree{
-    background: linear-gradient(to right, green, white);
-    transform: skew(20deg, 0deg);
 }
