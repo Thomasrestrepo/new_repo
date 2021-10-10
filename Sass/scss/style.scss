@@ -119,7 +119,6 @@ table{
     align-items: normal;
 }
 .flex-items{
-    // background-color: rgb(22, 139, 31);
     height: 100px;
     text-align: center;
     color: black;
@@ -131,7 +130,6 @@ table{
 
 /* GRIDS */
 .Grid{
-    // background-color: burlywood;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -146,7 +144,6 @@ table{
 ;
 }
 .item{
-    // background-color: rgb(238, 255, 0);
     align-items: stretch;
     justify-items: stretch;
     padding: 5px;
@@ -172,9 +169,6 @@ aside{
 }
 /* MEDIA QUERIES */
 @media only screen and (min-width: 320px){
-    .item{
-        // background-color: orange;
-    }
     header{
         background-color: orange;
     }
@@ -187,9 +181,6 @@ aside{
     }
 }
 @media only screen and (min-width: 480px){
-    .item{
-        // background-color: orange;
-    }
     header{
         background-color: orange;
     }
@@ -202,9 +193,6 @@ aside{
     }
 }
 @media only screen and (min-width: 600px){
-    .item{
-        // background-color: orange;
-    }
     header{
         background-color: orange;
     }
@@ -217,9 +205,6 @@ aside{
     }
 }
 @media only screen and (min-width: 768px){
-    .item{
-        // background-color: orange;
-    }
     header{
         background-color: orange;
     }
@@ -231,9 +216,6 @@ aside{
     }
 }
 @media only screen and (min-width: 1024px){
-    .item{
-        // background-color: orange;
-    }
     header{
         background-color: orange;
     }
@@ -245,9 +227,6 @@ aside{
     }
 }
 @media only screen and (min-width: 1200x){
-    .item{
-        // background-color: orange;
-    }
     header{
         background-color: orange;
     }
