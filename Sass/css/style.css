@@ -130,7 +130,7 @@ table {
 
 /* GRIDS */
 .Grid {
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -146,22 +146,22 @@ table {
   border: solid black; }
 
 #one {
-  grid-area: header; }
+  grid-area: one; }
 
 #two {
-  grid-area: nav; }
+  grid-area: two; }
 
 #three {
-  grid-area: home; }
+  grid-area: three; }
 
 #four {
-  grid-area: about; }
+  grid-area: four; }
 
 #five {
-  grid-area: aside; }
+  grid-area: five; }
 
 #six {
-  grid-area: footer; }
+  grid-area: six; }
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 320px) {
