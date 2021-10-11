@@ -130,14 +130,13 @@ table {
 
 /* GRIDS */
 .Grid {
-  width: 100vw;
+  width: 90vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-  grid-template-areas: "one two three"
- "four five six"; }
+  grid-template-areas: "one two three" "four five six"; }
 
 .item {
   align-items: stretch;
